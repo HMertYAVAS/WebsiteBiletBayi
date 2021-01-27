@@ -1,0 +1,290 @@
+.container{
+  margin:0px;
+  padding:0px;
+}
+header{
+  width: 75%;
+  float: left;
+  text-align: left;
+  margin-left: 15%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+header a{
+  padding-top: 10px;
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid gray;
+}
+header h1{
+float: left;
+font-size:15px;
+padding-top: 7px;
+padding-left: 10px;
+font-weight:lighter;
+}
+.phone-div{
+  float: right;
+}
+#phone-note{
+  float: left;
+  padding-right:5px;
+  font-size:12px;
+}
+#phone-number{
+  clear: both;
+  text-decoration: none;
+  text-align: left;
+  border: none;
+  font-size:25px;
+  padding-top: 5px;
+  color: black;
+}
+.border-bot{
+  border-bottom: 1px solid gray;
+}
+.nav-hr{
+  border-bottom: 1px solid gray;
+}
+
+nav{
+  clear:both;
+  margin-left: 14%;
+  margin-right: 10%;
+  font-size: 14px;
+}
+
+.nav-left{
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*7pxden 5px düşünce hareket etmiyor.*/
+  padding-bottom: 7px;
+
+}
+.nav-left a,.nav-right a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left li:hover{
+  border-bottom: 2px solid gray;
+  /*5 px düşürdüm*/
+  padding-bottom: 5px;
+}
+
+.nav-right{
+    list-style: none;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+
+}
+.nav-right li:hover{
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+}
+
+article{
+  clear:both;
+  position:relative;
+
+}
+
+article img{
+align-items: center;
+width: 100%;
+}
+#homepage{
+  height: 50%;
+}
+#happy{
+  height:30%;
+}
+
+#slogan-sec{
+  float: left;
+  position:absolute;
+  top:20px;
+  left:20%;
+  color:#fff;
+}
+#slogan-sec h1{
+  font-size:15px;
+  font-weight:lighter;
+}
+#slogan-sec h2{
+  font-size:30px;
+  font-weight:bold;
+  }
+
+#rez-sec{
+  position:absolute;
+  left:25%;
+  right:25%;
+  top: 30%;
+  bottom: 40%;
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.rez-form{
+  padding:30px;
+}
+
+.form-nerden-div{
+  padding-top:5px;
+}
+.nereden{
+      top:1px;
+      left:10px;
+      float:left;
+      margin: 0;
+}
+.nereden i,.nereden p,.nereye i,.nereye p{
+    background-color:gray;
+}
+.nereden p,.nereye p{
+  color:white;
+  padding-top:10px;
+  height:30px;
+  padding-right: 28px;
+  text-align:center;
+  padding-left: 5px;
+}
+
+.nereden input{
+  margin-right: 25px;
+}
+
+.nereye{
+float:left;
+margin: 0;
+}
+
+
+.nereye input,.nereden input{
+    width: 310px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid gray;
+}
+
+.material-icons{
+  color:white;
+  float:left;
+  padding-top: 5px;
+  height: 35px;
+  border-radius: 5px 0px 0px 5px;
+
+}
+
+.nereden input:focus{
+  background-color: blue;
+}
+
+
+.form-date-people{
+  clear: both;
+}
+
+.gidis-donus{
+  float: left;
+}
+
+.gidis,.donus{
+  margin-top: 20px;
+
+}
+
+.gidis input,.donus input{
+  width: 305px;
+  margin-left: -5px;
+  height: 40px;
+}
+.gidis-tarih p,.donus-tarih p,.gidis-tarih i,.donus-tarih i{
+  display: inline;
+  background-color:gray;
+  color:white;
+}
+.gidis-tarih p,.donus-tarih p{
+  padding-top: 11px;
+  top: 9px;
+  padding-bottom: 12px;
+  padding-right: 0px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.gidis-tarih p{
+  padding-right: 7px;
+}
+
+.gidis{
+
+}
+.donus{
+
+}
+.people-count-button{
+  float:right;
+  padding-right: 40px;
+  position:relative;
+  width: 375px;
+  padding-top: 10px;
+  height: 120px;
+}
+.yetiskin-class,.cocuk-class,.yas02-class,.yas1224-class{
+padding-top: 10px;
+margin-top: 10px;
+display: inline;
+margin-left: 20px;
+margin-right: 0px;
+width: 73px;
+height:20px;
+margin-top: 0px
+}
+
+select{
+  text-indent: 5px;
+  text-align-last: center;
+  font-size: 14px;
+}
+
+.block-count{
+  float:left;
+}
+
+.count-text{
+  background-color:gray;
+  color:white;
+  margin-left: 20px;
+  width:73px;
+  text-align:center;
+  margin-top: 10px;
+  border-radius:2px 2px 0px 0px ;
+}
+
+.count-sub{
+  margin-top: 5px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.form-button{
+  width:100%;
+  padding-left: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top:15px;
+  text-align-last: center;
+}
+
+#form-button{
+  background-color:green;
+  border-radius: 5px;
+}

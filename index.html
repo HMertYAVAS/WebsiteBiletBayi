@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- Logo,Slogan,link Phone -->
+      <header>
+
+        <!--logo-->
+        <a class="float-header" id="logo-head" href="www.biletbayisi.com">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+
+        <!--Slogan-->
+        <h1 class="float-header">Uçak Bileti - En Ucuz Uçak Biletleri</h1>
+
+        <!--Link Phone-->
+        <div class="phone-div">
+          <span id="phone-note">7/24 Uçak Bileti Hattı</span>
+          <a href="#" id="phone-number">0850 302 99 35</a>
+        </div>
+
+      </header >
+    <!--Uçak Bileti,Yurtiçi,Yurtdışı,Check-in,Blog,İletişim,
+    ,Giriş Yap,Üye ol-->
+    <div class="nav-hr">
+      <nav>
+        <!--Uçak Bileti,Yurtiçi,Yurtdışı,Check-in,Blog,İletişim-->
+
+        <ul class="nav-left">
+          <li class="nav-left"><a href="#">Uçak Bileti</a></li>
+          <li class="nav-left"><a href="#">Yurtiçi</a></li>
+          <li class="nav-left"><a href="#">Yurtdışı</a></li>
+          <li class="nav-left"><a href="#">Check-in</a></li>
+          <li class="nav-left"><a href="#">Blog</a></li>
+          <li class="nav-left"><a href="#">İletişim</a></li>
+        </ul>
+        <!--Giriş Yap,Üye Ol-->
+        <ul class="nav-right">
+          <li class="nav-right"><a href="#">Üye Ol</a></li>
+          <li class="nav-right"><a href="#">Giriş Yap</a></li>
+        </ul>
+      </nav>
+    </div>
+    <article class="main-article">
+
+      <!--img homepage photo-->
+      <img src="img/homepage.jpg" alt="homepage" id="homepage">
+      <img src="img/happy-people.jpg" alt="happy" id="happy">
+
+      <!--Slogan Main section-->
+      <section id="slogan-sec">
+        <h2 id="main-slogan">Türkiye’nin en ucuz uçak bileti sitesi!</h2>
+        <h1 id="sub-slogan">"2019 Yılında 3 Milyon Kişi Bizimle Uçtu"<h1>
+      </section>
+
+      <!--Rezervasyon section-->
+      <section id="rez-sec">
+        <form class="rez-form" action="index.html" method="post">
+          <!--radiobuttons-->
+          <div class="form-radio-div">
+            <input type="radio" name="git" value="0">
+            <label>Tek Yön</label>
+            <input type="radio" name="git" value="1">
+            <label>Gidiş-Dönüş</label>
+          </div>
+
+          <!--nerden_nereye-->
+          <div class="form-nerden-div">
+
+              <span class="nereden">
+                <i class="material-icons">add_location</i>
+                <p class="nereden">Nereden</p>
+                <input class="nereden" type="text" name="nereden" value="">
+              </span>
+              <span class="nereye">
+                <i class="material-icons">add_location_alt</i>
+                <p class="nereye">Nereye</p>
+                <input class="nereye"  type="text" name="nereye" value="">
+              </span>
+
+
+          </div>
+
+          <!--Slogan Main section Bitti-->
+
+
+          <!--Gidis Donus Tarih-->
+          <div class="form-date-people">
+            <div class="gidis-donus">
+
+              <div class="gidis">
+                  <span class="gidis-tarih">
+                    <i class="material-icons">calendar_today</i>
+                    <p class="gidis-tarih">Gidis Tarihi</p>
+                    <input type="text" name="gidis" value="">
+                  </span>
+                </div>
+
+                <div class="donus">
+                    <span class="donus-tarih">
+                      <i class="material-icons">calendar_today</i>
+                      <p class="donus-tarih">Donus Tarihi</p>
+                      <input type="text" name="donus" value="">
+                    </span>
+                </div>
+
+            </div>
+
+
+
+
+
+          <!--Yolcu sayısı-->
+
+<div class="people-count-button">
+
+
+            <div class="people-count">
+
+              <!--Yetiskin-->
+            <div class="block-count">
+              <label for="Yetişkin Sayısı">
+
+                <div class="count-text">
+                  yetiskin
+                </div>
+                <select class="yetiskin-class" name="yetiskin">
+                  <optgroup label="Yetişkin Sayısı">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                  </optgroup>
+                </select>
+              </label>
+              <div class="count-sub">
+                (12+ yaş)
+              </div>
+            </div>
+            <!--Çocuk-->
+            <div class="block-count">
+              <label for="">
+                <div class="count-text">
+                  Çocuk
+                </div>
+                <select class="cocuk-class" name="cocuk">
+                  <optgroup label="Çocuk Sayısı">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                  </optgroup>
+                </select>
+              </label>
+              <div class="count-sub">
+                (2-12 yaş)
+              </div>
+            </div>
+            <!--0/2-->
+            <div class="block-count">
+              <label for="">
+                <div class="count-text">
+                  Bebek
+                </div>
+                <select class="yas02-class" name="yas02">
+                  <optgroup label="0-2 Yaş Sayısı">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                  </optgroup>
+                </select>
+              </label>
+              <div class="count-sub">
+                (0-2 yaş)
+              </div>
+            </div>
+            <!--12/24-->
+            <div class="block-count">
+              <label for="">
+                <div class="count-text">
+                  Öğrenci
+                </div>
+                <select class="yas1224-class" name="yas1224">
+                  <optgroup label="12-24 Yaş Sayısı">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                  </optgroup>
+                </select>
+              </label>
+              <div class="count-sub">
+                (12-24 yaş)
+              </div>
+            </div>
+
+          </div>
+          <div class="form-button">
+            <button class="form-button" id="form-button" type="button" name="button">UÇUŞ ARA</button>
+          </div>
+        </div>
+
+          <!--Yolcu sayısı Bitti-->
+
+
+
+        </form>
+      </section>
+
+      <!--Counter Section-->
+      <section id="count-sec">
+        <h1>173.956.492</h1>
+        <p>2019 YILI MUTLU ZİYARETÇİ SAYISI</p>
+        <!--Fly image simulation-->
+        <div class"fly-image"></div>
+      </section>
+
+    </article>
+  </div>
+</body>
+</html>
